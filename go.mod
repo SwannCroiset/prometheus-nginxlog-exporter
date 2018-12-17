@@ -1,4 +1,4 @@
-module github.com/martin-helmich/prometheus-nginxlog-exporter
+module github.com/SwannCroiset/prometheus-nginxlog-exporter
 
 require (
 	github.com/beorn7/perks v0.0.0-20160229213445-3ac7bf7a47d1

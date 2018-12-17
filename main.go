@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Martin Helmich <kontakt@martin-helmich.de>
+ * Copyright 2016 Martin Helmich <kontakt@SwannCroiset.de>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,10 +24,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/martin-helmich/prometheus-nginxlog-exporter/config"
-	"github.com/martin-helmich/prometheus-nginxlog-exporter/discovery"
-	"github.com/martin-helmich/prometheus-nginxlog-exporter/relabeling"
-	"github.com/martin-helmich/prometheus-nginxlog-exporter/tail"
+	"github.com/SwannCroiset/prometheus-nginxlog-exporter/config"
+	"github.com/SwannCroiset/prometheus-nginxlog-exporter/discovery"
+	"github.com/SwannCroiset/prometheus-nginxlog-exporter/relabeling"
+	"github.com/SwannCroiset/prometheus-nginxlog-exporter/tail"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/satyrius/gonx"
 )

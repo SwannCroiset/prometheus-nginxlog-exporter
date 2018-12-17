@@ -15,6 +15,6 @@ deploy:
   file: prometheus-nginxlog-exporter
   skip_cleanup: true
   on:
-    repo: martin-helmich/prometheus-nginxlog-exporter
+    repo: SwannCroiset/prometheus-nginxlog-exporter
     tags: true
     go: 1.11
